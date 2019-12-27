@@ -13,4 +13,3 @@ CAL_HOME=$(pwd)/cal-shell
 }
 cd $CAL_HOME
 source $CAL_HOME/calbuilder.zsh
-print -P "%F{green}执行[ source $HOME/$shrc_file ]完成.%f"
