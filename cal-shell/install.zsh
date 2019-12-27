@@ -7,6 +7,7 @@
 # 在当前目录下 clone cal-shell 项目
 git clone https://github.com/calject/cal-shell.git
 CAL_HOME=$(pwd)/cal-shell
+is_process=1
 [[ -d $CAL_HOME ]] || {
     print -P "%F{red}cal-shell目录不存在.%f"
     exit 1
